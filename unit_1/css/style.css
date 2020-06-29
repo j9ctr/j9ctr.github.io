@@ -2,7 +2,16 @@ body	{
 	background-color: #6495ED;
 }
 
-h1, p {
+h1, h2, p {
 	color: #FFD700;
-	font-family: calibri, sans serif
+	font-family:'PT Sans Narrow', sans-serif;
+}
+
+.intro {
+	color: #FFD700;
+	display: block;
+	width: 200px;
+	padding: 50px;
+	margin: 20px;
+	text-align: justify;
 }
