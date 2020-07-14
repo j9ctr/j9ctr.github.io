@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body	{
+	font-family: 'PT Serif', serif;
+}
+
+img {
+	height: 400px;
+	width: 30%;
+	object-fit: cover;
+}
+
+nav {
+	font-family: 'Poppins', serif;
+	color: inherit;
+	text-decoration: none;
+}
+a	{
+	color: inherit;
+	text-decoration: none;
+	font-style: italic;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+h4,h5	{
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+}
+
+p.date {
+	font-style: italic;
+}
