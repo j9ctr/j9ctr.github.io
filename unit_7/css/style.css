@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	color: #FFFFF0;
+	text-shadow: 2px 2px black;
+	height: 100px;
+	margin-left: 2rem;
+}
+body	{
+	font-family: 'PT Serif', serif;
+	background-color: #DCDCDC;
+}
+nav a {
+	font-family: 'Poppins', serif;
+	font-style: normal;
+	color: inherit;
+	text-decoration: none;
+}
+header {
+	background: url(../images/laura-chouette-6tdfx_gvHf0-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+}
+.clearfix:after {
+	height: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+.wrapper1 {
+	background-color: red;
+}
+.featured {
+	width: 50%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+	max-width: 36em;
+	line-height: 120%;
+}
+.featured img {
+	display: inline-block;
+	width: 100%;
+	padding-top: 20px;
+}
+.recent {
+	width: 50%;
+	padding-top: 20px;
+	margin: 10px;
+	float: left;
+	max-width: 60em;
+	line-height: 120%;
+}
+.recent article {
+	padding-top: 20px;	
+}
+.recent img {
+	display: inline-block;
+	width: 35%;
+	float: left;
+	clear: both;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.recipes {
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.recipe1 {
+	margin: 10px;
+}
+.recipe2 {
+	margin: 10px;
+	padding-top: 200px;
+}
+.recipe3 {
+	margin: 10px;
+}
+.recipe4 {
+	margin: 10px;
+	padding-top: 200px;
+}
+.recipe1 img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+	border: 5px solid black;
+	float: left;
+	margin-right: 10px;
+}
+.recipe2 img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+	border: 5px solid black;
+	float: left;
+}
+.recipe3 img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+	border: 5px solid black;
+	float: left;
+	margin: 10px;
+}
+.recipe4 img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	display: block;
+	border: 5px solid black;
+	float: left;
+}
+.recipe h3{
+	text-align: center;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #FFFFF0;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	line-height: 40px;
+	margin-left: 5rem;
+}
+.headline2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	display: block;
+	margin-left: 10rem;
+}
+h2, h3, h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+}
+.navlinks{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #FFFFF0;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	display: inline-block;
+	float: left;
+	padding: 1em;
+	text-align: center;
+	width: 25%;
+}
+a	{
+	color: inherit;
+	text-decoration: none;
+	font-style: italic;
+}
+.featured a {
+	clear: both;
+}
+.recent a {
+	clear: both;
+}
+p.date {
+	font-style: italic;
+	line-height: 30px;
+}
+.aboutMe {
+	width: 45%;
+	float: right;
+	max-width: 36em;
+	line-height: 110%
+	padding-top: 50px;
+}
+.aboutMe img {
+	width: 300px;
+	height: 400px;
+	float: left;
+	object-fit: cover;
+	padding: 10px;
+}
+.moreOpinions {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 30px;
+}
+.moreOpinions img {
+	display: inline-block;
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+	padding-top: 20px;
+}
+.opinion1 {
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.opinion2 {
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.opinion3 {
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.socialMedia {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.socialMedia img {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+.emailMe {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.emailMe img {
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+.subscribe {
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.copyright {
+	clear: both;
+	text-align: center;
+	line-height: 110%;
+}
+
