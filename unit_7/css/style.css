@@ -73,61 +73,57 @@ header {
 	margin-right: 20px;
 }
 .recipes {
-	width: 50%;
+	width: 42%;
+	margin: 10px;
+	max-width: 60em;
 	float: left;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 .recipe1 {
-	margin: 10px;
+	margin: 2em;
 }
 .recipe2 {
-	margin: 10px;
-	padding-top: 200px;
+	margin: 2em;
 }
 .recipe3 {
-	margin: 10px;
+	margin: 2em;
 }
 .recipe4 {
-	margin: 10px;
-	padding-top: 200px;
+	margin: 2em;
 }
 .recipe1 img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
+	width: 46%;
 	display: block;
 	border: 5px solid black;
 	float: left;
 	margin-right: 10px;
 }
 .recipe2 img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
+	width: 46%;
 	display: block;
 	border: 5px solid black;
 	float: left;
 }
 .recipe3 img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
+	width: 46%;
 	display: block;
 	border: 5px solid black;
 	float: left;
 	margin: 10px;
 }
 .recipe4 img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
+	width: 46%;
 	display: block;
 	border: 5px solid black;
 	float: left;
+	margin: 10px;
 }
 .recipe h3{
 	text-align: center;
+}
+.recipe1 h3 {
+	max-width: 50%;
 }
 h1{
 	font-family: 'Poppins', sans-serif;
@@ -168,19 +164,25 @@ a	{
 	text-decoration: none;
 	font-style: italic;
 }
-.featured a {
+article + a {
 	clear: both;
+	padding: 10px;
+	top-margin: 30px;
+	border: 2px solid black;
+	border-radius: 30px;
 }
-.recent a {
+p + a {
 	clear: both;
+	padding: 10px;
+	font-weight: bold;
 }
 p.date {
 	font-style: italic;
 	line-height: 30px;
 }
 .aboutMe {
-	width: 45%;
-	float: right;
+	width: 50%;
+	float: left;
 	max-width: 36em;
 	line-height: 110%
 	padding-top: 50px;
