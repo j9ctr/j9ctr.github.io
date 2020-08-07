@@ -11,11 +11,13 @@
 	font-size: 50px;
 	color: #FFFFF0;
 	text-shadow: 2px 2px black;
-	height: 100px;
 	margin-left: 2rem;
+	margin-bottom: 3rem;
 }
 body	{
 	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	line-height: 1.5em;
 	background-color: #DCDCDC;
 }
 nav a {
@@ -28,16 +30,12 @@ header {
 	background: url(../images/laura-chouette-6tdfx_gvHf0-unsplash.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 300px;
 }
 .clearfix:after {
 	height: 0;
 	content: " ";
 	display: block;
 	clear: both;
-}
-.wrapper1 {
-	background-color: red;
 }
 .featured {
 	width: 50%;
@@ -46,7 +44,6 @@ header {
 	padding-bottom: 20px;
 	margin: 10px;
 	max-width: 36em;
-	line-height: 120%;
 }
 .featured img {
 	display: inline-block;
@@ -58,72 +55,56 @@ header {
 	padding-top: 20px;
 	margin: 10px;
 	float: left;
-	max-width: 60em;
-	line-height: 120%;
 }
 .recent article {
 	padding-top: 20px;	
 }
+.recent1 {
+	float: right;
+	width: 60%;
+}
+.recent2 {
+	float: right;
+	width: 60%;
+}
+.recent3 {
+	float: right;
+	width: 60%;
+}
 .recent img {
 	display: inline-block;
 	width: 35%;
-	float: left;
-	clear: both;
 	margin-bottom: 20px;
 	margin-right: 20px;
 }
 .recipes {
-	width: 42%;
-	margin: 10px;
-	max-width: 60em;
+	width: 41%;
 	float: left;
-	padding-top: 30px;
+	margin-top: 30px;
+	margin-left: 10px;
 	padding-bottom: 20px;
 }
-.recipe1 {
-	margin: 2em;
-}
-.recipe2 {
-	margin: 2em;
-}
-.recipe3 {
-	margin: 2em;
-}
-.recipe4 {
-	margin: 2em;
-}
-.recipe1 img{
-	width: 46%;
-	display: block;
+.recipes img {
+	width: 200px;
+	display: inline-block;
 	border: 5px solid black;
-	float: left;
-	margin-right: 10px;
+	margin: 5px;
 }
-.recipe2 img{
-	width: 46%;
-	display: block;
-	border: 5px solid black;
+.recipe1{
+	width: 25%;
 	float: left;
 }
-.recipe3 img{
-	width: 46%;
-	display: block;
-	border: 5px solid black;
+.recipe2{
+	width: 25%;
 	float: left;
-	margin: 10px;
 }
-.recipe4 img{
-	width: 46%;
-	display: block;
-	border: 5px solid black;
+.recipe3{
+	width: 25%;
 	float: left;
-	margin: 10px;
 }
-.recipe h3{
-	text-align: center;
-}
-.recipe1 h3 {
-	max-width: 50%;
+.recipe4{
+	width: 25%;
+	float: left;
 }
 h1{
 	font-family: 'Poppins', sans-serif;
@@ -170,11 +151,22 @@ article + a {
 	top-margin: 30px;
 	border: 2px solid black;
 	border-radius: 30px;
+	display: block;
+	text-align: center;
 }
 p + a {
 	clear: both;
 	padding: 10px;
 	font-weight: bold;
+}
+.aboutMe p + a{
+	clear: both;
+	padding: 10px;
+	top-margin: 30px;
+	border: 2px solid black;
+	border-radius: 30px;
+	display: block;
+	text-align: center;
 }
 p.date {
 	font-style: italic;
@@ -183,16 +175,15 @@ p.date {
 .aboutMe {
 	width: 50%;
 	float: left;
+	margin-top: 20px;
 	max-width: 36em;
-	line-height: 110%
-	padding-top: 50px;
 }
 .aboutMe img {
 	width: 300px;
-	height: 400px;
+	display: inline-block;
 	float: left;
-	object-fit: cover;
-	padding: 10px;
+	margin-right: 20px;
+	padding-bottom: 10px;
 }
 .moreOpinions {
 	clear: both;
@@ -202,28 +193,24 @@ p.date {
 }
 .moreOpinions img {
 	display: inline-block;
-	object-fit: cover;
 	width: 300px;
-	height: 300px;
 	padding-top: 20px;
 }
 .opinion1 {
 	float: left;
-	margin-left: 70px;
-	margin-right: 70px;
+	width: 33%;
 }
 .opinion2 {
 	float: left;
-	margin-left: 70px;
-	margin-right: 70px;
+	width: 33%;
 }
 .opinion3 {
 	float: left;
-	margin-left: 70px;
-	margin-right: 70px;
+	width: 33%;
 }
 .socialMedia {
 	float: left;
+	width: 30%;
 	margin-left: 30px;
 	margin-top: 30px;
 }
@@ -234,6 +221,7 @@ p.date {
 }
 .emailMe {
 	float: left;
+	width: 30%;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 30px;
@@ -245,6 +233,7 @@ p.date {
 }
 .subscribe {
 	float: left;
+	width: 30%;
 	margin-left: 20px;
 	margin-top: 30px;
 }
