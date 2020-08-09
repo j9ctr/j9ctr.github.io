@@ -42,7 +42,7 @@ header {
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin: 10px;
+	margin: 30px;
 	max-width: 36em;
 }
 .featured img {
@@ -52,12 +52,12 @@ header {
 }
 .recent {
 	width: 50%;
+	margin: 30px;
 	padding-top: 20px;
-	margin: 10px;
 	float: left;
 }
 .recent article {
-	padding-top: 20px;	
+	padding-bottom: 25px;	
 }
 .recent1 {
 	float: right;
@@ -74,35 +74,32 @@ header {
 .recent img {
 	display: inline-block;
 	width: 35%;
-	margin-bottom: 20px;
-	margin-right: 20px;
-}
-.recipes {
-	width: 41%;
-	float: left;
-	margin-top: 30px;
-	margin-left: 10px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.recipes {
+	width: 100%;
+	margin: 30px;
+}
 .recipes img {
-	width: 200px;
+	width: 300px;
 	display: inline-block;
 	border: 5px solid black;
-	margin: 5px;
+	padding-top: 20px;
 }
-.recipe1{
+.recipe1 {
 	width: 25%;
 	float: left;
 }
-.recipe2{
+.recipe2 {
 	width: 25%;
 	float: left;
 }
-.recipe3{
+.recipe3 {
 	width: 25%;
 	float: left;
 }
-.recipe4{
+.recipe4 {
 	width: 25%;
 	float: left;
 }
@@ -147,8 +144,9 @@ a	{
 }
 article + a {
 	clear: both;
+	width: 20em;
 	padding: 10px;
-	top-margin: 30px;
+	margin: auto;
 	border: 2px solid black;
 	border-radius: 30px;
 	display: block;
@@ -173,9 +171,8 @@ p.date {
 	line-height: 30px;
 }
 .aboutMe {
-	width: 50%;
-	float: left;
-	margin-top: 20px;
+	width: 100%;
+	margin: auto;
 	max-width: 36em;
 }
 .aboutMe img {
@@ -210,7 +207,7 @@ p.date {
 }
 .socialMedia {
 	float: left;
-	width: 30%;
+	width: 33%;
 	margin-left: 30px;
 	margin-top: 30px;
 }
