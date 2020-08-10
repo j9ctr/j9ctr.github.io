@@ -12,7 +12,8 @@
 	color: #FFFFF0;
 	text-shadow: 2px 2px black;
 	margin-left: 2rem;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
+	line-height: 4rem;
 }
 body	{
 	font-family: 'PT Serif', serif;
@@ -85,7 +86,6 @@ header {
 	width: 300px;
 	display: inline-block;
 	border: 5px solid black;
-	padding-top: 20px;
 }
 .recipe1 {
 	width: 25%;
@@ -109,7 +109,7 @@ h1{
 	color: #FFFFF0;
 	text-shadow: 2px 2px black;
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 1.5em;
 	margin-left: 5rem;
 }
 .headline2{
@@ -118,12 +118,13 @@ h1{
 	font-size: 30px;
 	display: block;
 	margin-left: 10rem;
+	margin-bottom: 10rem;
 }
 h2, h3, h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
+	font-size: 1.3em;
+	line-height: 1.3em;
 }
 .navlinks{
 	font-family: 'Poppins', sans-serif;
