@@ -106,8 +106,8 @@ h1{
 	font-weight: bold;
 	color: #FFFFF0;
 	text-shadow: 2px 2px black;
-	font-size: 30px;
-	line-height: 1.5em;
+	font-size: 2em;
+	line-height: 1.3em;
 	margin-left: 5rem;
 }
 .headline2{
@@ -154,31 +154,17 @@ a	{
 	text-decoration: none;
 	font-style: italic;
 }
-article + a {
+article + a, section + a, .aboutMe p + a {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1em;
 	clear: both;
-	width: 40em;
+	width: 35em;
 	padding: 1em;
 	margin: auto;
 	display: block;
 	background: url(../images/typewriterkey.jpg);
-	text-align: center;
-	border: 1px solid black;
-}
-section + a{
-	font-family: 'Poppins', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1em;
-	clear: both;
-	width: 40em;
-	padding: 1em;
-	margin: auto;
-	background: url(../images/typewriterkey.jpg);
-	display: block;
 	text-align: center;
 	border: 1px solid black;
 }
@@ -193,20 +179,6 @@ p + a {
 p.date {
 	font-style: italic;
 	line-height: 1em;
-}
-.aboutMe p + a{
-	font-family: 'Poppins', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1em;
-	clear: both;
-	width: 40em;
-	margin: auto;
-	padding: 1em;
-	display: block;
-	text-align: center;
-	background: url(../images/typewriterkey.jpg);
-	border: 1px solid black;
 }
 .aboutMe {
 	margin: auto;
@@ -271,4 +243,49 @@ p.date {
 	text-align: center;
 	line-height: 110%;
 }
+@media only screen and (max-width: 1210px){
+	article + a, section + a, .aboutMe p + a {
+		width: 20em;
+		padding: 1em;
+		background-color: inherit;
+		background: none;
+}
+}
+@media only screen and (max-width: 1072px){
+	.navlinks {
+		display: block;
+		float: none;
+		padding: .7em;
+		text-align: center;
+		margin: auto;
+		text-shadow: 2px 2px black;
+	}
+	.logo, h1, .headline2 {
+		display: block;
+		text-align: center;
+	}
+	h4 {
+		line-height: 1.2em
+	}
+	.recentA {
+		float: none;
+		padding-top: 1em;
+		padding-bottom: 1em;
+}
+	.recent img {
+		float: none;
+		display: block;
+		width: 50%;
+		padding: 1em 0 .5em 0;
+}
+	.recipes {
+		max-width: 45em;
+}
+	.recipes img {
+		width: 100%;
+		display: inline-block;
+}
+	.recipe {
+		width: 50%;
 
+}}
