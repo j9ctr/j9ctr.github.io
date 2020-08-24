@@ -207,11 +207,11 @@ p.date {
 }
 .moreOpinions h2 {
 	display: block;
-	margin-left: .5em;
+	margin-left: .6em;
 }
 .opinion {
 	float: left;
-	width: 30%;
+	width: 33%;
 	padding: 1em;
 	text-align: center;
 }
@@ -259,6 +259,7 @@ p.date {
 @media only screen and (max-width: 1072px){
 	.navlinks {
 		display: block;
+		width: 100%;
 		float: none;
 		padding: .5em;
 		text-align: center;
@@ -355,7 +356,7 @@ p.date {
 	}
 	.opinion {
 		float: none;
-		width: 70%;
+		width: 100%;
 		padding: 1em;
 		text-align: center;
 }
@@ -365,9 +366,6 @@ p.date {
 		width: 100%;
 	}
 	.recentA {
-		width: 90%;
-	}
-	.opinion {
 		width: 90%;
 	}
 	.aboutMe p {
@@ -431,7 +429,7 @@ p.date {
 		width: 80%;
 	}
 }
-@media only screen and (max-width: 380px)	{
+@media only screen and (max-width: 390px)	{
 	.navlinks {
 		font-size: 1.2rem;
 	}
