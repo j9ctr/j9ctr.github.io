@@ -370,7 +370,7 @@ p.date {
 	.opinion {
 		width: 90%;
 	}
-	.aboutMe + p {
+	.aboutMe p {
 		margin-bottom: 2em;
 	}
 	.aboutMe img {
@@ -399,15 +399,17 @@ p.date {
 }
 	.logo {
 		text-align: center;
-		margin-bottom: 1rem;
+		margin: 0 0 1rem 0;
+		border: 1px solid white;
 	}
 	h1 {
 		text-align: left;
-		width: 15em
+		width: 15em;
 		}
 	.headLine2 {
-		width: 10em;
+		width: 15em;
 		text-align: left;
+		margin-bottom: .5em
 	}
 	.navlinks {
 		display: block;
@@ -429,5 +431,30 @@ p.date {
 		width: 80%;
 	}
 }
-}		
-	
+@media only screen and (max-width: 380px)	{
+	.navlinks {
+		font-size: 1.2rem;
+	}
+	h1 {
+		font-size: 1.2rem;
+		}
+	.headLine2 {
+		font-size: 1.2rem;
+	}
+	h2 {
+		font-size: 1.2rem;
+	}	
+	h3 {
+		font-size: 1em;
+	}
+	h4 {
+		font-size: .9em;
+	}
+	body {
+		font-size: 14px;
+	}
+	.copyright {
+		font-size: 14px;
+	}
+	}
+}
